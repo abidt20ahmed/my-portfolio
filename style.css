@@ -239,6 +239,7 @@ color: #737272;
 .call{
     /* font-family: Work Sans; */
     /* text-align: center; */
+    margin-left: 550px;
 }
 #positive{
     font-style: normal;
@@ -248,6 +249,8 @@ line-height: 47px;
 margin-left: 67px;
 margin-top: 22px;
 color: #FFFFFF;
+margin-bottom: 40px;
+padding-top: 50px;
 
 }
 .socials{
@@ -269,12 +272,14 @@ color: #FFFFFF;
 }
 .socials{
     margin-top: 32px;
+    margin-bottom: 130px;
 }
 #future{
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: white;
+    margin-top: 130px;
 }
 #foot-text{
     margin-top: 16px;
@@ -292,6 +297,7 @@ color: #FFFFFF
     display: block;
     font-weight: 400;
     color: white;
+    margin-top: 22px;
 font-size: 20px;
 line-height: 21px;
 padding: 21px 158px 22px 21px;
@@ -305,14 +311,22 @@ color: #F3F3F3;
 #sub-btn{
     font-weight: 600;
     color: white;
+    margin-top: 16px;
+    padding: 15px 35px;
 font-size: 20px;
 line-height: 24px;
 background-color: white;
 border-color: white;
-
+border-radius: 5px;
 color: #F15B22;
 
 }
 .flx{
     display: flex;
+    margin-top: 130px;
+    background-color: #151414;
+    padding: 0 100px;
+    align-items: center;
+    margin-bottom: 130px;
+    justify-content: space-between;
 }
