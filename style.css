@@ -5,6 +5,7 @@
 }
 .right{
     display: inline-block;
+    font-family: work sans;
 
     text-transform: capitalize;
     width: 500px;
@@ -14,9 +15,9 @@
     /* text-align: right; */
     margin-top: 150px;
     font-style: normal;
-font-weight: 700;
-font-size: 65px;
-line-height: 76px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
 }
 
 header{
@@ -138,6 +139,7 @@ color: #444343;
 .plan{
     text-align: center;
     font-weight: bold;
+    margin-bottom: 130px;
 /* font-size: 40px;
 line-height: 47px; */
 /* identical to box height */
@@ -207,9 +209,110 @@ text-align: center;
 
 color: #737272;
 }
+.gradient{
+
+    background-image: url(./images/watch.png);
+    width: 1140px;
+    height: 300;
+    margin: auto;
+
+}
 
 .overlay{
-    background-image: url(./images/banner/banner1.png);
+    
+    background-image: url(./images/gradient2.png);
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 130px;
 
+}
+#call{
+    /* display: flex; */
+    width: 160px;
+    height: 64px;
+    margin: auto;
+    border-radius: 5px;
+    border-style: none;
+    /* align-items: center; */
+}
+.call{
+    /* font-family: Work Sans; */
+    /* text-align: center; */
+}
+#positive{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+margin-left: 67px;
+margin-top: 22px;
+color: #FFFFFF;
 
+}
+.socials{
+    /* display: flex; */
+}
+#foot{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 30%;
+}
+.mail{
+    color: white;
+    margin-top: 24px;
+}
+.phn{
+    color: white;
+    margin-top: 16px;
+}
+.socials{
+    margin-top: 32px;
+}
+#future{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: white;
+}
+#foot-text{
+    margin-top: 16px;
+    color: white;
+}
+#subscribe{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+
+color: #FFFFFF
+}
+#mail{
+    display: block;
+    font-weight: 400;
+    color: white;
+font-size: 20px;
+line-height: 21px;
+padding: 21px 158px 22px 21px;
+border-radius: 8px;
+border-color: white;
+/* Dark 07 */
+
+color: #F3F3F3;
+
+}
+#sub-btn{
+    font-weight: 600;
+    color: white;
+font-size: 20px;
+line-height: 24px;
+background-color: white;
+border-color: white;
+
+color: #F15B22;
+
+}
+.flx{
+    display: flex;
 }
