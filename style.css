@@ -9,7 +9,7 @@
     text-transform: capitalize;
     width: 500px;
     margin-right: 0;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     /* color: red; */
     /* text-align: right; */
     margin-top: 150px;
@@ -18,11 +18,7 @@ font-weight: 700;
 font-size: 65px;
 line-height: 76px;
 }
-p{
-    width: 494px;
-    margin-bottom: 32px;
-    /* text-align: right; */
-}
+
 header{
     display: block;
     background-image: url(./images/banner/banner1.png);
@@ -54,6 +50,7 @@ header{
     line-height: 23px;
     text-align: center;
     padding: 20px;
+    margin-top: 32px;
     border: none;
     border-radius: 5px;
     text-transform: capitalize;
@@ -64,18 +61,18 @@ header{
 .pic{
     /* width: 30%; */
 
-    margin-top: 60px ;
+    margin-top: 50px ;
     margin-right: 100px;
     margin-left: 90PX;
-    margin-bottom: 131px;
-    width: 380px;
+    margin-bottom: 50px;
+    width: 450px;
 }
 .list{
     display: block;
-    width: 316px;
+    width: 345px;
     /* margin-top: 110px;  */
-    margin-bottom: 310px;
-    margin-left: 200px;
+    margin-bottom: 110px;
+    margin-left: 150px;
     /* background-color: red; */
 }
 .banner{
@@ -89,10 +86,10 @@ header{
 
     width: 288px;
     height: 94px;
-    margin-top: 250PX;
+    margin-top: 100PX;
     margin-bottom: 23PX;
     left: 862px;
-    top: 1178px;
+    /* top: 1178px; */
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -102,14 +99,117 @@ header{
 
 }
 .list p{
-    width: 416;
+    width: 500px;
     margin-bottom: 16PX;
 }
 #secnd-pera{
     color: green;
+    height: 104px;
     width: 350px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 10px;
+/* or 162% */
+
+
+/* Dark 02 */
+
+color: #444343;
     
 }
 .lists{
     list-style: none;
+    /* margin-top: 5px; */
+    margin-bottom: 1px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+}
+.ulists{
+
+    margin-top: 10px;
+}
+.tik{
+    width: 15px;
+    /* height: 24px; */
+}
+.plan{
+    text-align: center;
+    font-weight: bold;
+/* font-size: 40px;
+line-height: 47px; */
+/* identical to box height */
+
+
+/* Dark 01 */
+
+color: #151414;
+
+}
+.plans{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 55px;
+}
+.dev .want{
+    /* display: inline-block;
+    width: 218px;
+    height: 35px;
+    margin: auto;
+    left: 853px;
+    top: 2006.3px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+     */
+    /* Dark 01 */
+    
+    color: #151414;
+    
+}
+.navbar{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.icon{
+    margin-bottom: 10px;
+}
+.dev{
+    font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+margin-bottom: 16px;
+
+/* Dark 01 */
+
+color: #151414;
+
+}
+.want{
+    font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+/* Dark 03 */
+
+color: #737272;
+}
+
+.overlay{
+    background-image: url(./images/banner/banner1.png);
+
+
 }
