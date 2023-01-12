@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
       rel="stylesheet"
@@ -14,28 +12,32 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- Header Section -->
     <header class="header">
-      <div class="div">
-        <div class="dv">
-          <h1 class="right">
-            all things are possible if you <span>believe</span>
-          </h1>
-          <p>
+      <div class="header-flex">
+        <div class="empty">
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, nam.
+          </p> -->
+        </div>
+        <div class="header-section">
+          <h1 class="primary-header">All Thinks Are Possible If You believe</h1>
+          <p class="header-text">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words
           </p>
-          <button class="btn">contact us</button>
+          <button class="btn">Contact Us</button>
         </div>
       </div>
-      <div class="banner">
-        <div class="pic">
-          <img class="pic" src="./images/person.png" alt="" />
-        </div>
-
-        <div class="list">
-          <h3>My failures of previous year</h3>
-          <p id="secnd-pera">
+    </header>
+    <!-- Main Section -->
+    <main>
+      <section class="first-section">
+        <div><img class="pic" src="./images/person.png" alt="" /></div>
+        <div class="list-division">
+          <h3 class="main-header">My failures of previous year</h3>
+          <p id="main-text">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
             making it over 2000 years old. Richard McClintock.
@@ -63,83 +65,65 @@
             </li>
           </ul>
         </div>
-      </div>
-    </header>
-
-    <section class="plan">
-      <div>
-        <h6 class="plans">My Plans</h6>
-      </div>
-      <div>
-        <nav>
-          <ul class="navbar">
-            <li>
-              <div>
-                <img class="icon" src="./images/icons/web.png" alt="" />
-                <p class="dev">Web Development</p>
-                <p class="want">I want to start</p>
-              </div>
-            </li>
-
-            <li>
-              <div>
-                <img class="icon" src="./images/icons/js.png" alt="" />
-                <p class="dev">Javascript</p>
-                <p class="want">I want to learn</p>
-              </div>
-            </li>
-
-            <li>
-              <div>
-                <img class="icon" src="./images/icons/smoke.png" alt="" />
-                <p class="dev">Smokig Habit</p>
-                <p class="want">I want to end</p>
-              </div>
-            </li>
-
-            <li>
-              <div>
-                <img class="icon" src="./images/icons/ecom.png" alt="" />
-                <p class="dev">ecommerce</p>
-                <p class="want">I want to develop</p>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-
-
-    <section class="gradient">
-      <div class="overlay">
-        <!-- <img src="./images/watch.png" alt=""> -->
-        <div></div>
-        <div></div>
-        <p id="positive" class="call">Always keep a positive mindset</p>
-        <button id="call" class="call">Call Now</button>
-      </div>
-    </section>
-    <footer>
-        <div class="flx">
-            <div id="foot">
-                <h3 id="future">Future</h3>
-                <p id="foot-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                <p class="mail">Email : info@gmail.com</p>
-                <p class="phn">Phone : 012 34 56 78</p>
-                <div class="socials">
-                    <img src="./images/icons/fb.png" alt="">
-                    <img src="./images/icons/twitter.png" alt="">
-                    <img src="./images/icons/youtube.png" alt="">
-                </div>
-            </div>
-            <div>
-                <p id="subscribe">Subscribe</p>
-                <input id="mail" type="email" placeholder="Enter your email">
-                <button id="sub-btn">Subscribe</button>
-            </div>
+      </section>
+      <section class="second-section">
+        <h3 class="my-plans">My Plans</h3>
+        <div class="plans-container">
+          <div class="plan">
+            <img src="./images/icons/web.png" alt="" />
+            <p class="plan-title">Web Development</p>
+            <p class="plan-description">I want to start</p>
+          </div>
+          <div class="plan">
+            <img src="./images/icons/js.png" alt="" />
+            <p class="plan-title">Javascript</p>
+            <p class="plan-description">I want to learn</p>
+          </div>
+          <div class="plan">
+            <img src="./images/icons/smoke.png" alt="" />
+            <p class="plan-title">Smokig Habit</p>
+            <p class="plan-description">I want to end</p>
+          </div>
+          <div class="plan">
+            <img src="./images/icons/ecom.png" alt="" />
+            <p class="plan-title">Ecommerce</p>
+            <p class="plan-description">I want to develop</p>
+          </div>
         </div>
+      </section>
+      <section class="last-section">
+        <div class="overlay">
+          <p class="last-pera">Awlays keep a positive mindset</p>
+          <button class="main-btn">Call Now</button>
+        </div>
+      </section>
+    </main>
 
-  </footer>
-    
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer">
+        <div class="future-division">
+          <h3 class="future">Future</h3>
+          <p class="footer-text">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words
+          </p>
+          <p class="mail">Email : info@gmail.com</p>
+          <p class="phn">Phone : 012 34 56 78</p>
+          <div class="socials">
+            <img class="icon" src="./images/icons/fb.png" alt="" />
+            <img class="icon" src="./images/icons/twitter.png" alt="" />
+            <img class="icon" src="./images/icons/youtube.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <p class="subscribe">Subscribe</p>
+          <input class="email" type="email" placeholder="Enter your email" />
+          <button class="last-btn">Subscribe</button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
